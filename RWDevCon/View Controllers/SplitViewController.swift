@@ -32,4 +32,16 @@ final class SplitViewController: UISplitViewController {
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }
+  
+  override func becomeFirstResponder() -> Bool {
+    return true
+  }
+  
+  override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    if motion == .motionShake {
+      print("Do shake me")
+      let viewController = ExploreSessionsViewController()
+      self.present(viewController, animated: true, completion: nil)
+    }
+  }
 }

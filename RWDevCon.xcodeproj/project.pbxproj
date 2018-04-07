@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D4F26F2078840C00A2985C /* ExploreSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D4F26E2078840C00A2985C /* ExploreSessionsViewController.swift */; };
 		78B7A9DE1A3E9876002AAF7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B7A9DD1A3E9876002AAF7F /* Images.xcassets */; };
 		7B7B885A1C3EA37100102F5E /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7B7B88591C3EA37100102F5E /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7B7B88671C3EA37100102F5E /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7B7B884D1C3EA37000102F5E /* Watch.app */; };
-		D237D592205501C700D3D443 /* MapPresentationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237D591205501C700D3D443 /* MapPresentationSegue.swift */; };
+		D237D592205501C700D3D443 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D2C194BE204654A3003A1B2E /* SessionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C194B720465479003A1B2E /* SessionInterfaceController.swift */; };
 		D2C194BF204654A3003A1B2E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C194B820465479003A1B2E /* ComplicationController.swift */; };
 		D2C194C0204654A3003A1B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C194B920465479003A1B2E /* Assets.xcassets */; };
@@ -128,6 +129,7 @@
 
 /* Begin PBXFileReference section */
 		355F2BF3204F3577002BD1BC /* RWDevCon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RWDevCon.entitlements; sourceTree = "<group>"; };
+		38D4F26E2078840C00A2985C /* ExploreSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreSessionsViewController.swift; sourceTree = "<group>"; };
 		78B7A9CE1A3E9876002AAF7F /* RWDevCon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWDevCon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B7A9D21A3E9876002AAF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B7A9DD1A3E9876002AAF7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 		D2D6068D20452AA5009A857D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				38D4F26E2078840C00A2985C /* ExploreSessionsViewController.swift */,
 				D2D6068E20452AA5009A857D /* ConferenceSelectionTableViewController.swift */,
 				D2D6068F20452AA5009A857D /* SessionViewController.swift */,
 				D2D6069020452AA5009A857D /* SplitViewController.swift */,
@@ -442,7 +445,7 @@
 				TargetAttributes = {
 					78B7A9CD1A3E9876002AAF7F = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = KFCNEC27GU;
+						DevelopmentTeam = WWNV4NQ24P;
 						LastSwiftMigration = 0930;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -458,17 +461,17 @@
 					};
 					7B7B884C1C3EA37000102F5E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = KFCNEC27GU;
+						DevelopmentTeam = WWNV4NQ24P;
 						LastSwiftMigration = 0820;
 					};
 					7B7B88581C3EA37100102F5E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = KFCNEC27GU;
+						DevelopmentTeam = WWNV4NQ24P;
 						LastSwiftMigration = 0820;
 					};
 					D2D606CD20452BB7009A857D = {
 						CreatedOnToolsVersion = 9.3;
-						DevelopmentTeam = KFCNEC27GU;
+						DevelopmentTeam = WWNV4NQ24P;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
@@ -550,7 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D606B520452AA6009A857D /* ScheduleSectionHeaderView.swift in Sources */,
-				D237D592205501C700D3D443 /* MapPresentationSegue.swift in Sources */,
+				D237D592205501C700D3D443 /* (null) in Sources */,
 				D2D606AE20452AA6009A857D /* ConferenceSelectionTableViewController.swift in Sources */,
 				D2D606BB20452AA6009A857D /* SessionCell.swift in Sources */,
 				D2D606C020452AA6009A857D /* Conference.swift in Sources */,
@@ -559,6 +562,7 @@
 				D2D606BF20452AA6009A857D /* Speaker.swift in Sources */,
 				D2D606B620452AA6009A857D /* SpeakerView.swift in Sources */,
 				D2D606AF20452AA6009A857D /* SessionViewController.swift in Sources */,
+				38D4F26F2078840C00A2985C /* ExploreSessionsViewController.swift in Sources */,
 				D2D606BC20452AA6009A857D /* SessionSharer.swift in Sources */,
 				D2D606B320452AA6009A857D /* UIStoryboard+Extension.swift in Sources */,
 				D2D606C820452AA6009A857D /* ViewControllerRouter.swift in Sources */,
@@ -738,12 +742,12 @@
 				CODE_SIGN_ENTITLEMENTS = RWDevCon/RWDevCon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/RWDevCon/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -760,12 +764,12 @@
 				CODE_SIGN_ENTITLEMENTS = RWDevCon/RWDevCon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/RWDevCon/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
@@ -780,12 +784,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -804,12 +808,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -824,11 +828,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Watch App Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -844,11 +848,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Watch App Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -882,13 +886,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.Today;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -923,13 +927,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = WWNV4NQ24P;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RWDevCon.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiptopgoodstudios.RWDevCon.Today;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -30,7 +30,7 @@ import UIKit
 import NotificationCenter
 
 private let kSessionCell = "SessionCell"
-private let kWidgetIdentifier = "com.razeware.RWDevCon.Today"
+private let kWidgetIdentifier = "com.tiptopgoodstudios.RWDevCon.Today"
 
 final class TodayViewController: UIViewController {
   @IBOutlet private var tableView: UITableView!

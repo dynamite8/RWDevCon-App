@@ -29,7 +29,7 @@
 import UIKit
 import NotificationCenter
 
-private let kWidgetIdentifier = "com.razeware.RWDevCon.Today"
+private let kWidgetIdentifier = "com.tiptopgoodstudios.RWDevCon.Today"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

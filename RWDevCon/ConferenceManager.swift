@@ -84,7 +84,7 @@ final class ConferenceManager {
       return
     }
 
-    let queue = DispatchQueue(label: "com.razeware.rwdevcon.filestorage")
+    let queue = DispatchQueue(label: "com.tiptopgoodstudios.rwdevcon.filestorage")
     queue.async {
       do {
         try fileContents.write(to: url, atomically: true, encoding: .utf8)
