@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0ACC4B30FBD210DD9756F47A /* Pods_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF7433BDE8EC7B96CA0E282 /* Pods_Watch.framework */; };
 		29A5540EBB287F43A8B1812A /* Pods_RWDevCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6328B907C2F751648743E /* Pods_RWDevCon.framework */; };
+		389DEDDF2078929A0076D2B2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389DEDDE2078929A0076D2B2 /* CustomView.swift */; };
 		38D4F26F2078840C00A2985C /* ExploreSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D4F26E2078840C00A2985C /* ExploreSessionsViewController.swift */; };
 		78B7A9DE1A3E9876002AAF7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B7A9DD1A3E9876002AAF7F /* Images.xcassets */; };
 		7B7B885A1C3EA37100102F5E /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7B7B88591C3EA37100102F5E /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7B7B88671C3EA37100102F5E /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7B7B884D1C3EA37000102F5E /* Watch.app */; };
 		87D1470F85C0121C977AEBB8 /* Pods_Today.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46939642D60897116325F073 /* Pods_Today.framework */; };
-		D237D592205501C700D3D443 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		D237D592205501C700D3D443 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D2C194BE204654A3003A1B2E /* SessionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C194B720465479003A1B2E /* SessionInterfaceController.swift */; };
 		D2C194BF204654A3003A1B2E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C194B820465479003A1B2E /* ComplicationController.swift */; };
 		D2C194C0204654A3003A1B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C194B920465479003A1B2E /* Assets.xcassets */; };
@@ -137,6 +138,7 @@
 		2A81A60FE286A3B355231CFF /* Pods-RWDevCon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWDevCon.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWDevCon/Pods-RWDevCon.release.xcconfig"; sourceTree = "<group>"; };
 		2FBE70570EE7AED0B9EB5064 /* Pods-Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today.release.xcconfig"; path = "Pods/Target Support Files/Pods-Today/Pods-Today.release.xcconfig"; sourceTree = "<group>"; };
 		355F2BF3204F3577002BD1BC /* RWDevCon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RWDevCon.entitlements; sourceTree = "<group>"; };
+		389DEDDE2078929A0076D2B2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		38D4F26E2078840C00A2985C /* ExploreSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreSessionsViewController.swift; sourceTree = "<group>"; };
 		3A623455C2F1F9497BFE5D54 /* Pods-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		46939642D60897116325F073 /* Pods_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -378,6 +380,7 @@
 				D2D6069C20452AA5009A857D /* ScheduleSectionHeaderView.xib */,
 				D2D6069D20452AA5009A857D /* SpeakerView.xib */,
 				D2D6069E20452AA5009A857D /* SessionCell.swift */,
+				389DEDDE2078929A0076D2B2 /* CustomView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -701,7 +704,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D606B520452AA6009A857D /* ScheduleSectionHeaderView.swift in Sources */,
-				D237D592205501C700D3D443 /* BuildFile in Sources */,
+				D237D592205501C700D3D443 /* (null) in Sources */,
 				D2D606AE20452AA6009A857D /* ConferenceSelectionTableViewController.swift in Sources */,
 				D2D606BB20452AA6009A857D /* SessionCell.swift in Sources */,
 				D2D606C020452AA6009A857D /* Conference.swift in Sources */,
@@ -717,6 +720,7 @@
 				D2D606B220452AA6009A857D /* ConferenceMapViewController.swift in Sources */,
 				D2D606BE20452AA6009A857D /* Session.swift in Sources */,
 				D2D606B020452AA6009A857D /* SplitViewController.swift in Sources */,
+				389DEDDF2078929A0076D2B2 /* CustomView.swift in Sources */,
 				D2CEBAE62055075300CA3BF0 /* MapPresentationSegue.swift in Sources */,
 				D2D606B420452AA6009A857D /* UIImageView+URL.swift in Sources */,
 				D2D606C520452AA6009A857D /* AppDelegate.swift in Sources */,

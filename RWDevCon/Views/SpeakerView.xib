@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -28,7 +28,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="300" height="320"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0L5-IA-nSA">
-                            <rect key="frame" x="0.0" y="0.0" width="300" height="251"/>
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="263"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zbz-Md-dyx">
                                     <rect key="frame" x="7.5" y="0.0" width="285" height="225"/>
@@ -37,16 +37,16 @@
                                     </constraints>
                                 </imageView>
                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ZKS-FM-cDj">
-                                    <rect key="frame" x="25.5" y="233" width="249" height="18"/>
+                                    <rect key="frame" x="25.5" y="233" width="249" height="30"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="&lt;speaker name&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6b-6U-TIU">
-                                            <rect key="frame" x="0.0" y="0.0" width="115" height="18"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="115" height="30"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SK3-40-Hla">
-                                            <rect key="frame" x="140" y="0.0" width="109" height="18"/>
+                                            <rect key="frame" x="140" y="0.0" width="109" height="30"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                             <state key="normal" title="&lt;social handle&gt;"/>
                                             <connections>
@@ -61,10 +61,10 @@
                             </constraints>
                         </stackView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltv-C7-R29">
-                            <rect key="frame" x="0.0" y="271" width="300" height="49"/>
+                            <rect key="frame" x="0.0" y="283" width="300" height="37"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="&lt;speaker bio&gt;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb0-SI-Vqv">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+                                    <rect key="frame" x="16" y="0.0" width="268" height="37"/>
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -74,11 +74,14 @@
                             <constraints>
                                 <constraint firstItem="bb0-SI-Vqv" firstAttribute="height" secondItem="ltv-C7-R29" secondAttribute="height" id="AfB-aX-epu"/>
                                 <constraint firstItem="bb0-SI-Vqv" firstAttribute="centerY" secondItem="ltv-C7-R29" secondAttribute="centerY" id="Cpl-np-it0"/>
-                                <constraint firstItem="bb0-SI-Vqv" firstAttribute="width" secondItem="ltv-C7-R29" secondAttribute="width" id="Z1V-J2-9oT"/>
-                                <constraint firstItem="bb0-SI-Vqv" firstAttribute="centerX" secondItem="ltv-C7-R29" secondAttribute="centerX" id="iIk-HT-HQk"/>
+                                <constraint firstItem="bb0-SI-Vqv" firstAttribute="trailing" secondItem="ltv-C7-R29" secondAttribute="trailing" constant="-16" id="DLj-ao-SVe"/>
+                                <constraint firstItem="bb0-SI-Vqv" firstAttribute="leading" secondItem="ltv-C7-R29" secondAttribute="leading" constant="16" id="Hwt-PR-Nfr"/>
                             </constraints>
                         </view>
                     </subviews>
+                    <constraints>
+                        <constraint firstItem="ltv-C7-R29" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="OkG-xL-M8v" secondAttribute="bottom" constant="50" id="zCs-eO-ayf"/>
+                    </constraints>
                 </stackView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
